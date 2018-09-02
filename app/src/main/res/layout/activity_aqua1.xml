@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aqua1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textColor="#ff6601"
+            android:text="Aqua Tone"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+
+            android:textColor="#000"
+            android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_weight="2"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/aqua1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff068"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <com.example.arpit.getwel.HindiTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:text=" वाटर सैनिटाइजर एंड डिस्इंफेक्टेंट\nएक्वाटोन पानी में उपस्थित फंगल एवं बैक्टीरिया को नष्ट करता है।\nपानी का पी एच एवं टी डी एस सन्तुलित रखता है।\nफार्म के अंदर वातावरण की नमीं को खत्म करता है।\nपानी में उपस्थित अशुद्धियों को दूर करता है।"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: "
+                android:textSize="18dp"
+                android:id="@+id/pir"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹450 "
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/pir"
+                android:id="@+id/ori"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ₹320 "
+                android:layout_toRightOf="@id/ori"
+                android:textSize="18dp"
+                android:id="@+id/pripro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: 1 LT"
+                android:textSize="18dp"
+                android:layout_below="@+id/pripro"
+                android:id="@+id/sizepro"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/also"
+
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:text="Also available as"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Lit"
+                android:textSize="18dp"
+                android:layout_below="@+id/also"
+                android:id="@+id/firstalso"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="#fff"
+                android:minHeight="2dp"
+                android:minWidth="2dp"
+                android:padding="4dp"
+                android:includeFontPadding="false"
+                android:background="@drawable/also"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPOSITION:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peracetic acid"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hydrogen peroxide"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acetic acid  "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sulphuric acid"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDICATION:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1.) Effectively lowers Ph of water"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2.) Provides healthy environment for probiotics"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(3.) Act as a gut environment modifier by preventing colonization of Digestive tract by harmful bacteria
+"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(4.) Eliminates harmful pathogens in drinking water,keep water Pipeline free from bacteria and moulds reduces Ph (Acidification) Of the GI tract from crop to colaca and lowe feed buffering capacity
+"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(5.)Reduces ammonia in litter"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(6.) Improves absorption of nutrients by maintaining villi length "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(7.) Improves egg shell strength / egg cleanliness"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(8.) Best acidifier,can be used even in presence of bird"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(9.) Work as a broad spectrum of activity as disinfectant"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(10.) Work as a broad spectrum of activity as a water santizer"
+            android:layout_marginBottom="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIRECTION FOR USE:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For water Sanitation and Acidifier \n\n100 ml /1000 ltr of drinking water\n\n For Disinfection and Descaling\n\n100 ml/1 ltr of drinking water
+"
+            android:layout_marginBottom="25dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

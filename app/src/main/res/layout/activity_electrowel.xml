@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".electrowel">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textColor="#ff6601"
+            android:text="Electrowel"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+
+            android:textColor="#000"
+            android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_weight="2"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/electrowel1kg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff068"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <com.example.arpit.getwel.HindiTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:text="इलेक्ट्रोलाइट, डेक्सटोज व विटामिन सी\nइलेक्ट्रोलाइट डेक्सटोज व विटामिन सी का अनोखा संगम\nविटामिन सी की उपलब्धता जो कि गर्मी में तनाव को कम करती है।\nहीट स्ट्रोक से बचाव करता है।\nइलेक्ट्रोलाइट की कमी को पूरा करके मुर्गियों को हाफने से बचाता है।"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: "
+                android:textSize="18dp"
+                android:id="@+id/pir"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹65"
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/pir"
+                android:id="@+id/ori"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ₹45 "
+                android:layout_toRightOf="@id/ori"
+                android:textSize="18dp"
+                android:id="@+id/pripro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: 200 gm"
+                android:textSize="18dp"
+                android:layout_below="@+id/pripro"
+                android:id="@+id/sizepro"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/also"
+
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:text="Also available as"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Kg"
+                android:textSize="18dp"
+                android:layout_below="@+id/also"
+                android:id="@+id/firstalso"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="#fff"
+                android:minHeight="2dp"
+                android:minWidth="2dp"
+                android:padding="4dp"
+                android:includeFontPadding="false"
+                android:background="@drawable/also"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Kg"
+                android:textSize="18dp"
+                android:id="@+id/secalso"
+                android:layout_below="@+id/also"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_toRightOf="@+id/firstalso"
+                android:textColor="#fff"
+                android:layout_marginLeft="4dp"
+                android:minHeight="2dp"
+                android:minWidth="2dp"
+                android:padding="4dp"
+                android:includeFontPadding="false"
+                android:background="@drawable/also"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPOSITION:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sodium chloride                 0.800gm  "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potassium chloride            5.000gm "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sodium Bicarbonate          3.000gm  "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sodium Acid Phosphate    0.800gm  "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sodium Citrate                    6.500gm "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcium Lactate                   1.700gm"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnesium Sulphate          1.000gm "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lactose                                 25.000gm "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ascorbic Acid                         1.200gm"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lactobascillus                       3000 million"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dextorse          Q.S.  "
+            android:layout_marginBottom="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDICATION:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1.) Regular use of ELECTRO-WEL ."
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2.) Compensates electrolyte losses due to dysentery, diarrhea,coccidiosis,salmonellosis,fowl cholera,transportation,poisoning,heat storke,etc."
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(3.) It also provides instant energy and brings animals and birds back to health and production. "
+            android:layout_marginBottom="25dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIRECTION FOR USE:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poultry for birds:\n\nChicks                               2-5  gm\n\nGrowers     2 ml / 100 birds\n\nGrowers / Broilers        5-10 gm\n\nLayers                            8-10  gm   \n\nDuring stress double the dose for faster recovery  \n\n Cattle,Buffalo and Horse  10-15 gm \n\nCalf,Sheep,Goat and Pig   6-7 gm "
+            android:layout_marginBottom="25dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

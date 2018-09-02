@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".livvetstrong25lit">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:textColor="#ff6601"
+            android:text="Liv vet Strong "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+
+            android:textColor="#000"
+            android:text=""/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_weight="2"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/livvetstrong5lit"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff068"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+            <com.example.arpit.getwel.HindiTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:text=" स्टाग लिवर टानिक\nलिवर में टौक्सिन एवं केमिकल को नष्ट करता है।\nबीमारी से लिवर को बचाता है।\nमुर्गियों में अंडे देने की छमता को बढ़ाता है।\nबीमारी में भी वजन कम नहीं होने देता"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: "
+                android:textSize="18dp"
+                android:id="@+id/pir"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹8550"
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/pir"
+                android:id="@+id/ori"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ₹5300 "
+                android:layout_toRightOf="@id/ori"
+                android:textSize="18dp"
+                android:id="@+id/pripro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: 25 Lit"
+                android:textSize="18dp"
+                android:layout_below="@+id/pripro"
+                android:id="@+id/sizepro"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/also"
+
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:text="Also available as"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 Lit"
+                android:textSize="18dp"
+                android:layout_below="@+id/also"
+                android:id="@+id/firstalso"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="#fff"
+                android:minHeight="2dp"
+                android:minWidth="2dp"
+                android:padding="4dp"
+                android:includeFontPadding="false"
+                android:background="@drawable/also"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Lit"
+                android:textSize="18dp"
+                android:id="@+id/secalso"
+                android:layout_below="@+id/also"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_toRightOf="@+id/firstalso"
+                android:textColor="#fff"
+                android:layout_marginLeft="4dp"
+                android:minHeight="2dp"
+                android:minWidth="2dp"
+                android:padding="4dp"
+                android:includeFontPadding="false"
+                android:background="@drawable/also"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPOSITION:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tricholine citrate      1500mg"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protein Hydrolysate   1000mg"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vitamin B12	           4 mcg                                                   "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Selenium                        7 mcg                                                                                        "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Methyl Donors              66 mg                                                                                      "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inositol                            10 mg                                                                                  "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vitamin H (Biotin)          6 mcg                                                                                                                        "
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vitamin E                          20 mg                                                                                                                               "
+            android:layout_marginBottom="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDICATION:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" (1.)A powerfull liver tonic for quick recovery of Heptic  disorders and diseases.                            "
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2.)Protect and stimulates liver during stress due to    exogenic and endogenic toxins.
+"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  (3.)Combats the ill effects of Hepatopathies and  Nephropathies."
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(4.)Improve weight gain in broilers."
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(5.)Improve egg production in layers."
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(6.)Break down triglycorides to prevent fatty changes Controls fat deposition."
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(7.)Better detoxification of toxic metabolites."
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(8.)Stimulates the function of kidney in maintaining Water salt eqlibrium."
+            android:layout_marginBottom="25dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIRECTION FOR USE:"
+            android:textSize="20dp"
+            android:textColor="#ff850c"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Poultry for 100 birds \n\nBroilers       5-10ml\n\nLayers        10-15ml\n\nBreeders    25-30ml\n\nCattle,Buffalo and Horse   30-50ml"
+            android:layout_marginBottom="25dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

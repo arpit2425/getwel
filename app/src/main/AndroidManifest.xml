@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arpit.getwel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-sdk
+    android:minSdkVersion="3"
+    android:targetSdkVersion="17"
+    android:maxSdkVersion="17" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".list" />
+        <activity android:name=".proDetail" />
+        <activity
+            android:name=".login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".register"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="Map" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".abc200" />
+        <activity android:name=".aqua1" />
+        <activity android:name=".aqua5" />
+        <activity android:name=".utrovet" />
+        <activity android:name=".toxivet" />
+        <activity android:name=".rap" />
+        <activity android:name=".nefrovetds" />
+        <activity android:name=".nefrovet" />
+        <activity android:name=".livvetstrong" />
+        <activity android:name=".livvet" />
+        <activity android:name=".grownup" />
+        <activity android:name=".getzole" />
+        <activity android:name=".getmin" />
+        <activity android:name=".esevet" />
+        <activity android:name=".electrowel" />
+        <activity android:name=".coughcure" />
+        <activity android:name=".cipwel" />
+        <activity android:name=".calcivetp" />
+        <activity android:name=".calcivetpgold" />
+        <activity android:name=".calcivetgold" />
+        <activity android:name=".beachwel" />
+        <activity android:name=".bevet" />
+        <activity android:name=".calcivet" />
+        <activity android:name=".beachwel500ml" />
+        <activity android:name=".beachwel1lit" />
+        <activity android:name=".beachwel5lit" />
+        <activity android:name=".beachwel25lit" />
+        <activity android:name=".bevet5lit" />
+        <activity android:name=".bevet25lit" />
+        <activity android:name=".calcivet5lit" />
+        <activity android:name=".calcivet10lit" />
+        <activity android:name=".calcivetgold5lit" />
+        <activity android:name=".calcivetgold10lit" />
+        <activity android:name=".calcivetpgold5lit" />
+        <activity android:name=".calcivetp5lit" />
+        <activity android:name=".cipwel500gm" />
+        <activity android:name=".coughcure5lit" />
+        <activity android:name=".electrowel1kg" />
+        <activity android:name=".electrowel5kg" />
+        <activity android:name=".esevet1kg" />
+        <activity android:name=".esevet500ml" />
+        <activity
+            android:name=".esevet1lit"
+            android:label="@string/title_activity_esevet1lit" />
+        <activity android:name=".esevet5lit" />
+        <activity android:name=".getmin5kg" />
+        <activity android:name=".getzole90ml" />
+        <activity android:name=".getzole1lit" />
+        <activity android:name=".grownup5lit" />
+        <activity android:name=".livvet5lit" />
+        <activity android:name=".livvet25lit" />
+        <activity android:name=".livvetstrong5lit" />
+        <activity android:name=".livvetstrong25lit" />
+        <activity android:name=".nefrovet5lit" />
+        <activity android:name=".nefrovet25lit" />
+        <activity android:name=".nefrovetds5lit" />
+        <activity android:name=".nefrovetds30lit" />
+        <activity android:name=".rap500ml" />
+        <activity android:name=".rap1lit" />
+        <activity android:name=".rap5lit" />
+        <activity android:name=".toxivet1lit" />
+        <activity android:name=".toxivet5lit" />
+        <activity android:name=".toxivet25lit" />
+        <activity android:name=".about" />
+        <activity android:name=".contact"></activity>
+    </application>
+
+</manifest>

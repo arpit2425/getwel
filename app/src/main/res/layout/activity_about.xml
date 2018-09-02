@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+
+    tools:context=".about">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/com" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#8f9af2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+               android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="Getwel Health Organization, is a well blend of good planning, rich experience and execution of planning in a professional manner.\n
+Getwel Health Organization, operation started in the year 2010,with a group of Veterinary range feed additive, Poultry and Cattle premix feed supplements, and overall management products, as in case of cattle and poultry farming, management is known as one of the key factors, for to get success for the dairy farmers.\n
+Getwel Health Organization, operation started in the year 2010,with a group of Veterinary range feed additiveGetwel Health Organization, is a well blend of good planning, rich experience and execution of planning in a professional manner.\n
+Getwel Health Organization, operation started in the year 2010,with a group of Veterinary range feed additive, Poultry and Cattle premix feed supplements, and overall management products, as in case of cattle and poultry farming, management is known as one of the key factors, for to get success for the dairy farmers.\n
+The product range complies of Cattle, Poultry and Canine feed supplements. Within a very short span of time, the products of Getwel health Organization have been endorsed by our prestigious customers, across the country.\n
+Scientists, Media, Customers, have already understood the importance of using probiotic over using antibiotic, across the globe!! Therefore Getwel Health Organization’s products have touched the yard stick of reaching the customer, with the health solution, and sharing the prosperity of the farmers and pet lovers!!\n
+Today our presence is felt across the country, by virtue of competent product management team, who understands the need of the customers, and the end customers, a very efficient h.o team, to ensure the proper execution of the idea through the field executives, and as a team we are making the dream come true.\n
+The vision of the organization is to provide a comprehensive health solution, to the farmer, and to be a part of the prosperity of the nation and abroad, and let the smile float and flower be blossom, across the earth!!\n"
+    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+            android:background="#fff"
+            android:layout_marginBottom="25dp"
+           >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:src="@drawable/iso" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/is" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ii" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerLayout"
+        android:background="@color/white"
+        app:itemTextColor="@color/darkgrey"
+        app:itemIconTint="@color/darkgrey"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start"
+        ></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

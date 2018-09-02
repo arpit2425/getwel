@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "111398730682",
+    "firebase_url": "https://getwel-c5abc.firebaseio.com",
+    "project_id": "getwel-c5abc",
+    "storage_bucket": "getwel-c5abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111398730682:android:fe1da0ccbe05db71",
+        "android_client_info": {
+          "package_name": "com.help.arpit.getwel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111398730682-6b6i93rqmc6cb71r45749e1n77708h3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi8oHbsaYmaMPCglT8Go4BYRKBznLQ5G0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
